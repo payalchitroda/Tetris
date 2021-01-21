@@ -1,7 +1,7 @@
-import Styled from 'styled-components';
+import styled from 'styled-components';
 
-export const StyledCell= Styled.div`
-width:auto;
-background:rgb(${props=>props.color});
-
-`
+export const StyledCell = styled.div`
+  width: auto;
+  background: rgba(${props => props.color});
+ 
+`;
